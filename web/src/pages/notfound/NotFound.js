@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import image from '../assets/img/404.png';
+import image from '../../assets/img/404.png';
 
 class NotFound extends Component {
 	render() {

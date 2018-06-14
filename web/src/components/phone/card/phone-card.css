@@ -1,0 +1,47 @@
+.card__container {
+	width: 290px;
+	border-radius: 5px;
+	margin: 1em;
+	transition: all 0.25s ease-in-out;
+}
+
+.card__container:hover {
+	box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+	cursor: pointer;
+	transform: scale(1.02, 1.02);
+}
+
+.card__container:hover .card__image > img {
+	transform: translateY(2.4em);
+}
+
+.card__image,
+.card__title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card__image {
+	background-color: lightblue;
+	border-radius: 5px 5px 0 0;
+	height: 290px;
+	width: 100%;
+}
+
+.card__image > img {
+	max-height: 140%;
+	transform: translateY(3em);
+	transition: all 0.25s ease-in-out;
+}
+
+.card__title > span {
+	background-color: #fff;
+	border-radius: 0 0 5px 5px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3em;
+	padding: 1.5em 0 3em 0;
+	text-align: center;
+	width: 100%;
+	z-index: 0;
+}
