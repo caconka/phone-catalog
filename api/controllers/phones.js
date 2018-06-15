@@ -1,5 +1,5 @@
 const createError = require('http-errors');
-const phonesMock = require('../mocks/phones');
+const phonesMock = require('../assets/data/phones-mock');
 
 module.exports.list = (req, res) => {
 	res.json(phonesMock);
