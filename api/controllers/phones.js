@@ -2,7 +2,11 @@ const createError = require('http-errors');
 const phonesMock = require('../assets/data/phones-mock');
 
 module.exports.list = (req, res) => {
-	res.json(phonesMock);
+	const phoneList = phonesMock.map(phone => {
+		const {id, baseImg, name} = phone;
+		return {id, baseImg, name};
+	});
+	res.json(phoneList);
 };
 
 module.exports.findById = (req, res, next) => {
