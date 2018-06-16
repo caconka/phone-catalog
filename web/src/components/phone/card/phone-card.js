@@ -6,7 +6,7 @@ class PhoneCard extends Component {
 		return (
 			<div className="card__container">
 				<div className="card__image">
-					<img src="http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/8_1862_Big_Imagen.png" alt="" />
+					<img src="https://dl.dropboxusercontent.com/s/blhw4r5hhlinyse/xperiaXZ2.png?dl=0" alt="" />
 				</div>
 				<div className="card__title">
 					<span>Samsung Galaxy S9</span>

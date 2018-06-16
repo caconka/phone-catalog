@@ -2,7 +2,7 @@ const phones = [
 	{
 		id: '1',
 		name: 'Nokia 8 Sirocco',
-		baseImg: 'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/8_1862_Big_Imagen.png',
+		baseImg: 'https://dl.dropboxusercontent.com/s/ho2snhbs2ci4bmr/nokia8-01.png?dl=0',
 		brand: '',
 		specs: {
 		},
@@ -12,7 +12,7 @@ const phones = [
 	{
 		id: '2',
 		name: 'Iphone X',
-		baseImg: 'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/iphone-x_1767_Big_Imagen.png',
+		baseImg: 'https://dl.dropboxusercontent.com/s/1ci1mlbiwjbqsz9/iphoneX-01.png?dl=0',
 		brand: '',
 		specs: {
 		},
@@ -22,7 +22,7 @@ const phones = [
 	{
 		id: '3',
 		name: 'Huawei P20',
-		baseImg: 'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/p20-pro_1956_Big_Imagen.png',
+		baseImg: 'https://dl.dropboxusercontent.com/s/03m3uvu10n3fqpg/huaweiP20-01.png?dl=0',
 		brand: '',
 		specs: {
 		},
@@ -32,7 +32,7 @@ const phones = [
 	{
 		id: '4',
 		name: 'Xperia XZ2',
-		baseImg: 'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/xperia-xz2_1997_Big_Imagen.png',
+		baseImg: 'https://dl.dropboxusercontent.com/s/blhw4r5hhlinyse/xperiaXZ2.png?dl=0',
 		brand: '',
 		specs: {
 		},
@@ -42,7 +42,7 @@ const phones = [
 	{
 		id: '5',
 		name: 'Huawei Y7',
-		baseImg: 'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/y7-2018_1893_Big_Imagen.png',
+		baseImg: 'https://dl.dropboxusercontent.com/s/xgwep1tw7v3le5d/huaweiY7-01.png?dl=0',
 		brand: '',
 		specs: {
 		},
@@ -52,7 +52,7 @@ const phones = [
 	{
 		id: '6',
 		name: 'LG Q6',
-		baseImg: 'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/q6_1667_Big_Imagen.png',
+		baseImg: 'https://dl.dropboxusercontent.com/s/er96j5xvlv4p7wk/lgQ6-01.png?dl=0',
 		brand: '',
 		specs: {
 		},

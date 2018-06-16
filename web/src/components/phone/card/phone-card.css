@@ -13,7 +13,7 @@
 }
 
 .card__container:hover .card__image > img {
-	transform: translateY(1.4em);
+	transform: translateY(2em);
 }
 
 
@@ -36,8 +36,8 @@
 }
 
 .card__image > img {
-	max-height: 130%;
-	transform: translateY(3em);
+	max-height: 100%;
+	transform: translateY(3.5em);
 	transition: all 0.25s ease-in-out;
 }
 
