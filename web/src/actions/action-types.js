@@ -1,0 +1,5 @@
+export const GET_PHONES = 'GET_PHONES';
+export const GET_SELECTED_PHONE = 'GET_SELECTED_PHONE';
+export const SET_PHONES = 'SET_PHONES';
+export const SET_SELECTED_PHONE = 'SET_SELECTED_PHONE';
+export const FETCH_FAILED = 'FETCH_FAILED';

@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {createStore} from 'redux';
+import {createStore, applyMiddleware} from 'redux';
 import {Provider} from 'react-redux';
+import createSagaMiddleware from 'redux-saga';
 import {
 	BrowserRouter as Router,
 	Route,
@@ -14,8 +15,12 @@ import PhoneList from './pages/phone/list/phone-list';
 import PhoneDetail from './pages/phone/detail/phone-detail';
 import NotFound from './pages/notfound/NotFound';
 import phoneReducer from './reducers/phones';
+import phoneSaga from './sagas/phones';
 
-const store = createStore(phoneReducer);
+const sagaMiddleware = createSagaMiddleware();
+const store = createStore(phoneReducer, applyMiddleware(sagaMiddleware));
+
+sagaMiddleware.run(phoneSaga);
 
 const app = (
 	<Provider store={store}>
