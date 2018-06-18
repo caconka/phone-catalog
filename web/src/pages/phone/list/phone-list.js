@@ -11,15 +11,22 @@ class PhoneList extends Component {
 	}
 
 	getRandomColor() {
-		const index = Math.floor(Math.random() * this.colors.length);
-		const color = this.colors[index];
-		this.colors.splice(index, 1);
-		return color;
+		if (this.colors) {
+			const index = Math.floor(Math.random() * this.colors.length);
+			const color = this.colors[index];
+			this.colors.splice(index, 1);
+			return color;
+		}
+	}
+
+	selectPhone(phoneId) {
+		this.props.history.push('phones/' + phoneId);
 	}
 
 	render() {
 		const products = this.props.phones.map(phone => {
 			return <PhoneCard key={phone.id} phone={phone}
+				click={() => this.selectPhone(phone.id)}
 				color={this.getRandomColor()}/>;
 		});
 

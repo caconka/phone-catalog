@@ -13,6 +13,7 @@
 }
 
 .card__container:hover .card__image > img {
+	opacity: 1;
 	transform: translateY(2rem);
 }
 
@@ -37,6 +38,7 @@
 .card__image > img {
 	max-height: 100%;
 	transform: translateY(3.2rem);
+	opacity: .8;
 	transition: all 0.25s ease-in-out;
 }
 

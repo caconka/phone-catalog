@@ -3,11 +3,12 @@ import './phone-card.css';
 
 class PhoneCard extends Component {
 	render() {
-		const cardImageClass = 'card__image card--' + this.props.color
+		const props = this.props;
+		const cardImageClass = 'card__image card--' + props.color;
 		return (
-			<div className="card__container">
+			<div className="card__container" onClick={props.click}>
 				<div className={cardImageClass}>
-					<img src={this.props.phone.baseImg} alt={this.props.phone.name} />
+					<img src={this.props.phone.baseImg} alt={props.phone.name} />
 				</div>
 				<div className="card__title">
 					<span>{this.props.phone.name}</span>
