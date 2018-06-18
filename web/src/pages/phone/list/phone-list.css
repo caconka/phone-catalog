@@ -1,11 +1,12 @@
-.list__page {
-	width: 100%;
-}
-
+.list__page,
 .list__container {
 	align-items: center;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
+}
+
+.list__container {
+	flex-wrap: wrap;
+	max-width: 800px;
 	min-height: 100vh;
 }

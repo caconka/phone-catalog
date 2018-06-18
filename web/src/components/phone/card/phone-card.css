@@ -2,7 +2,7 @@
 	width: 240px;
 	height: fit-content;
 	border-radius: 5px;
-	margin: .6em;
+	margin: .6rem;
 	transition: all 0.25s ease-in-out;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .card__container:hover .card__image > img {
-	transform: translateY(2em);
+	transform: translateY(2rem);
 }
 
 
@@ -29,7 +29,6 @@
 }
 
 .card__image {
-	background-color: lightblue;
 	border-radius: 5px 5px 0 0;
 	height: 240px;
 	width: 100%;
@@ -37,7 +36,7 @@
 
 .card__image > img {
 	max-height: 100%;
-	transform: translateY(3.5em);
+	transform: translateY(3.2rem);
 	transition: all 0.25s ease-in-out;
 }
 
@@ -46,9 +45,34 @@
 	border-radius: 0 0 5px 5px;
 	color: #333;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1.1em;
-	padding: 1.5em 0;
+	font-size: 1.1rem;
+	padding: 1rem 0 1.1rem 0;
 	text-align: center;
 	width: 100%;
 	z-index: 0;
+}
+
+.card--blue {
+	background-color: #52B3D9;
+}
+
+.card--red {
+	background-color: #F2784B;
+}
+
+.card--yellow {
+	background-color: #F5AB35;
+
+}
+
+.card--green {
+	background-color: #66CC99;
+}
+
+.card--purple {
+	background-color: #BE90D4;
+}
+
+.card--gray {
+	background-color: #ABB7B7;
 }

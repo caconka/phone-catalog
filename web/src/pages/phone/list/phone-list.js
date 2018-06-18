@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {withRouter} from 'react-router-dom';
 import {connect} from 'react-redux';
 import PhoneCard from '../../../components/phone/card/phone-card';
 import {getPhones} from '../../../actions/phones';
@@ -8,11 +7,20 @@ import './phone-list.css';
 class PhoneList extends Component {
 	componentDidMount() {
 		this.props.getPhones();
+		this.colors = ['blue', 'red', 'yellow', 'green', 'purple', 'gray'];
+	}
+
+	getRandomColor() {
+		const index = Math.floor(Math.random() * this.colors.length);
+		const color = this.colors[index];
+		this.colors.splice(index, 1);
+		return color;
 	}
 
 	render() {
 		const products = this.props.phones.map(phone => {
-			return <PhoneCard key={phone.id} phone={phone}/>;
+			return <PhoneCard key={phone.id} phone={phone}
+				color={this.getRandomColor()}/>;
 		});
 
 		return (
@@ -39,7 +47,7 @@ const mapDispatchToProps = dispatch => {
 	};
 };
 
-export default withRouter(connect(
+export default connect(
 	mapStateToProps,
 	mapDispatchToProps
-)(PhoneList));
+)(PhoneList);
