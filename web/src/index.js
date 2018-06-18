@@ -6,8 +6,7 @@ import createSagaMiddleware from 'redux-saga';
 import {
 	BrowserRouter as Router,
 	Route,
-	Switch,
-	Redirect
+	Switch
 } from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
