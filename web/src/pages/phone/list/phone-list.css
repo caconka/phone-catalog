@@ -5,8 +5,11 @@
 	justify-content: center;
 }
 
+.list__page {
+	min-height: 100vh;
+}
+
 .list__container {
 	flex-wrap: wrap;
 	max-width: 800px;
-	min-height: 100vh;
 }

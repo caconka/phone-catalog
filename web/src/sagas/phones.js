@@ -17,9 +17,9 @@ function* fetchPhones() {
 	}
 }
 
-function* fetchPhone(id) {
+function* fetchPhone(action) {
 	try {
-		const selectedPhone = yield call(getPhoneById);
+		const selectedPhone = yield call(getPhoneById, action.id);
 		yield put({type: SET_SELECTED_PHONE, selectedPhone});
 	} catch (error) {
 		yield put({type: FETCH_FAILED, error});
