@@ -24,14 +24,18 @@ class PhoneList extends Component {
 	}
 
 	render() {
-		const products = this.props.phones.map(phone => {
-			return <PhoneCard key={phone.id} phone={phone}
-				click={() => this.selectPhone(phone.id)}
-				color={this.getRandomColor()}/>;
-		});
+		let products = (<p>Loading...</p>);
+		const {phones} = this.props;
+		if (phones) {
+			products = phones.map(phone => {
+				return <PhoneCard key={phone.id} phone={phone}
+					click={() => this.selectPhone(phone.id)}
+					color={this.getRandomColor()}/>;
+			});
+		}
 
 		return (
-			<div className="list__page">
+			<div className="page__container">
 				<div className="list__container">
 					{products}
 				</div>

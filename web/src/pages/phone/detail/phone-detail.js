@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
+import {Link} from 'react-router-dom';
 import {getSelectedPhone} from '../../../actions/phones';
+import PhoneSpecs from '../../../components/phone/specs/phone-specs';
+import './phone-detail.css';
 
 class PhoneDetail extends Component {
 	componentDidMount() {
@@ -8,9 +11,19 @@ class PhoneDetail extends Component {
 	}
 
 	render() {
+		let phoneSpecs = (<p>Loading...</p>);
+		const {selectedPhone} = this.props;
+		if (selectedPhone) {
+			phoneSpecs = (<PhoneSpecs phone={selectedPhone} />);
+		}
 		return (
-			<div>
-				{this.props.selectedPhone.name}
+			<div className="page__container">
+				<div className="detail__container">
+					<div className="anchor__back">
+						<Link to="/">Back to List</Link>
+					</div>
+					{phoneSpecs}
+				</div>
 			</div>
 		);
 	}

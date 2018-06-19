@@ -1,15 +1,7 @@
-.list__page,
 .list__container {
 	align-items: center;
 	display: flex;
 	justify-content: center;
-}
-
-.list__page {
-	min-height: 100vh;
-}
-
-.list__container {
 	flex-wrap: wrap;
 	max-width: 800px;
 }

@@ -5,8 +5,8 @@ import {
 } from '../actions/action-types';
 
 const initialState = {
-	phones: [],
-	selectedPhone: {},
+	phones: null,
+	selectedPhone: null,
 	error: null
 };
 
