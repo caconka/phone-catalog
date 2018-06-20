@@ -26,6 +26,10 @@ const phones = [
 			colors: ['000000']
 		},
 		images: [
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/8_1858_Big_Imagen.png',
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/8_1859_Big_Imagen.png',
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/8_1860_Big_Imagen.png',
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/8_1861_Big_Imagen.png'
 		]
 	},
 	{

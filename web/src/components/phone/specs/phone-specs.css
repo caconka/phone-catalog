@@ -1,6 +1,17 @@
+.specs__global {
+	max-width: 390px;
+	width: 50%;
+}
+
+.phone-name {
+	margin-bottom: 2rem;
+}
+
 .specs__container {
 	background-color: #E8F0F4;
 	padding: 1rem 2rem;
+	display: inline-block;
+	width: 100%;
 }
 
 .spec__row {

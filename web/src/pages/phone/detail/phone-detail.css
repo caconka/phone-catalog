@@ -39,3 +39,14 @@
 .anchor__back:hover a {
 	opacity: 1;
 }
+
+.detail__container {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.detail__container > .slider {
+	display: inline-block;
+}

@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 import {getSelectedPhone} from '../../../actions/phones';
 import PhoneSpecs from '../../../components/phone/specs/phone-specs';
+import PhoneSlider from '../../../components/phone/slider/phone-slider';
 import './phone-detail.css';
 
 class PhoneDetail extends Component {
@@ -17,10 +18,10 @@ class PhoneDetail extends Component {
 	render() {
 		const {selectedPhone} = this.props;
 		let phoneSpecs = (<p>Loading...</p>);
-		let phoneName = '';
+		let phoneImages = '';
 		if (selectedPhone) {
 			phoneSpecs = (<PhoneSpecs phone={selectedPhone} />);
-			phoneName = selectedPhone.name;
+			phoneImages = selectedPhone.images;
 		}
 		return (
 			<div className="page__container">
@@ -29,10 +30,8 @@ class PhoneDetail extends Component {
 					<Link to="/">Back to List</Link>
 				</div>
 				<div className="page__detail">
-					<div>
-						<h1>{phoneName}</h1>
-					</div>
 					<div className="detail__container">
+						<PhoneSlider images={phoneImages} />
 						{phoneSpecs}
 					</div>
 				</div>
