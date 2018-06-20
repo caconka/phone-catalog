@@ -1,7 +1,41 @@
-.detail__container {
+.page__detail {
 	max-width: 960px;
 	width: 90%;
 }
 
 .anchor__back {
+	align-items: center;
+	display: flex;
+	height: 25px;
+	left: 2rem;
+	position: fixed;
+	transition: all 0.25s ease-in-out;
+	top: 2rem;
+}
+
+.back-icon {
+	background-image: url('../../../assets/img/icon_back.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	width: 25px;
+}
+
+.anchor__back a {
+	color: #333;
+	font-size: .8rem;
+	opacity: 0;
+	margin-left: .5rem;
+	transition: all 0.25s ease-in-out;
+	text-decoration: none;
+}
+
+.anchor__back:hover {
+	cursor: pointer;
+	transform: scale(1.2, 1.2);
+}
+
+.anchor__back:hover a {
+	opacity: 1;
 }

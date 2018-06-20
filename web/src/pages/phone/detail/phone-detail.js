@@ -10,19 +10,31 @@ class PhoneDetail extends Component {
 		this.props.getPhone(this.props.match.params.id);
 	}
 
+	backToList() {
+		this.props.history.push('/');
+	}
+
 	render() {
-		let phoneSpecs = (<p>Loading...</p>);
 		const {selectedPhone} = this.props;
+		let phoneSpecs = (<p>Loading...</p>);
+		let phoneName = '';
 		if (selectedPhone) {
 			phoneSpecs = (<PhoneSpecs phone={selectedPhone} />);
+			phoneName = selectedPhone.name;
 		}
 		return (
 			<div className="page__container">
-				<div className="detail__container">
-					<div className="anchor__back">
-						<Link to="/">Back to List</Link>
+				<div className="anchor__back" onClick={() => this.backToList()}>
+					<div className="back-icon"></div>
+					<Link to="/">Back to List</Link>
+				</div>
+				<div className="page__detail">
+					<div>
+						<h1>{phoneName}</h1>
 					</div>
-					{phoneSpecs}
+					<div className="detail__container">
+						{phoneSpecs}
+					</div>
 				</div>
 			</div>
 		);

@@ -1,0 +1,52 @@
+.specs__container {
+	background-color: #E8F0F4;
+	padding: 1rem 2rem;
+}
+
+.spec__row {
+	align-items: center;
+	display: flex;
+	margin: 1rem 0;
+}
+
+.spec__icon {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 35px;
+	margin-right: 2rem;
+	width: 28px;
+}
+
+.spec__value {
+	display: flex;
+	align-items: baseline;
+}
+
+.icon__display {
+	background-image: url('../../../assets/img/icon_display.png');
+}
+
+.icon__capacity {
+	background-image: url('../../../assets/img/icon_capacity.png');
+}
+
+.icon__ram {
+	background-image: url('../../../assets/img/icon_ram.png');
+}
+
+.icon__camera {
+	background-image: url('../../../assets/img/icon_camera.png');
+}
+
+.icon__touch {
+	background-image: url('../../../assets/img/icon_touch.png');
+}
+
+.icon__face {
+	background-image: url('../../../assets/img/icon_face.png');
+}
+
+.icon__battery {
+	background-image: url('../../../assets/img/icon_battery.png');
+}

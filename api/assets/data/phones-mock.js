@@ -11,17 +11,17 @@ const phones = [
 				resolution: '1440x2560 pixels'
 			},
 			chip: 'Snapdragon 835',
-			ram: '6GB',
+			ram: '6',
 			camera: {
-				front: '13MP',
-				back: '13MP'
+				front: '13',
+				back: '13'
 			},
-			capacity: '128GB',
+			capacity: '128',
 			measures: {
 				dimensions: '151.5 x 73.7 x 7.9 mm',
 				weight: '160g'
 			},
-			battery: '3090mAh',
+			battery: '3090',
 			secureAuth: 'FACE_ID',
 			colors: ['000000']
 		},
@@ -40,17 +40,17 @@ const phones = [
 				resolution: '1125x2436 pixels'
 			},
 			chip: 'A11 Bionic chip',
-			ram: '3GB',
+			ram: '3',
 			camera: {
-				front: '7MP',
-				back: '12MP'
+				front: '7',
+				back: '12'
 			},
-			capacity: '64GB - 256GB',
+			capacity: '64 - 256',
 			measures: {
 				dimensions: '143.6 x 70.9 x 7.7 mm',
 				weight: '174g'
 			},
-			battery: '2716mAh',
+			battery: '2716',
 			secureAuth: 'FACE_ID',
 			colors: ['E2E3E4', '262529']
 		},
@@ -69,17 +69,17 @@ const phones = [
 				resolution: '1080x2240 pixels'
 			},
 			chip: 'Hisilicon Kirin 970',
-			ram: '6GB',
+			ram: '6',
 			camera: {
-				front: '24MP',
-				back: '40MP'
+				front: '24',
+				back: '40'
 			},
-			capacity: '128GB',
+			capacity: '128',
 			measures: {
 				dimensions: '155 x 73.9 x 7.8 mm',
 				weight: '180g'
 			},
-			battery: '4000mAh',
+			battery: '4000',
 			secureAuth: 'TOUCH_ID',
 			colors: ['E5D1B6', '000000', '295094', '57598C', 'FDD3CB']
 		},
@@ -98,17 +98,17 @@ const phones = [
 				resolution: '1080x2160 pixels'
 			},
 			chip: 'Snapdragon 845',
-			ram: '6GB',
+			ram: '6',
 			camera: {
-				front: '5MP',
-				back: '19MP'
+				front: '5',
+				back: '19'
 			},
-			capacity: '64GB',
+			capacity: '64',
 			measures: {
 				dimensions: '153 x 72 x 11.1 mm',
 				weight: '198g'
 			},
-			battery: '3180mAh',
+			battery: '3180',
 			secureAuth: 'TOUCH_ID',
 			colors: ['A2AAAD', '33353B', '174A5B', '948794']
 		},
@@ -127,17 +127,17 @@ const phones = [
 				resolution: '720x1280 pixels'
 			},
 			chip: 'Snapdragon 435',
-			ram: '2GB',
+			ram: '2',
 			camera: {
-				front: '8MP',
-				back: '12MP'
+				front: '8',
+				back: '12'
 			},
-			capacity: '16GB',
+			capacity: '16',
 			measures: {
 				dimensions: '153.6 x 76.4 x 8.4 mm',
 				weight: '165g'
 			},
-			battery: '4000mAh',
+			battery: '4000',
 			secureAuth: 'TOUCH_ID',
 			colors: ['E9DDB7', 'CCCCCC', 'E8E8E8']
 		},
@@ -156,17 +156,17 @@ const phones = [
 				resolution: '1080x2160 pixels'
 			},
 			chip: 'Snapdragon 435',
-			ram: '4GB',
+			ram: '4',
 			camera: {
-				front: '5MP',
-				back: '13MP'
+				front: '5',
+				back: '13'
 			},
-			capacity: '64GB',
+			capacity: '64',
 			measures: {
 				dimensions: '142.5 x 69.3 x 8.1 mm',
 				weight: '149g'
 			},
-			battery: '3000mAh',
+			battery: '3000',
 			secureAuth: 'FACE_ID',
 			colors: ['000000', 'CCCCCC']
 		},
