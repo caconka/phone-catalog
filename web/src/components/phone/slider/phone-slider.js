@@ -13,7 +13,12 @@ class PhoneSpecs extends Component {
 		}
 
 		return (
-			<Carousel width="45%">
+			<Carousel width="380px" renderCenterLeftControls={({previousSlide}) => (
+				<div onClick={previousSlide} className="custom-btn btn-left"></div>
+			)}
+			renderCenterRightControls={({nextSlide}) => (
+				<div onClick={nextSlide} className="custom-btn btn-right"></div>
+			)}>
 				{imgs}
 			</Carousel>
 		);

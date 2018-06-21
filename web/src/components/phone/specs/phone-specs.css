@@ -1,5 +1,4 @@
 .specs__global {
-	max-width: 390px;
 	width: 50%;
 }
 
@@ -8,9 +7,10 @@
 }
 
 .specs__container {
-	background-color: #E8F0F4;
+	background-color: #ECF0F1;
 	padding: 1rem 2rem;
-	display: inline-block;
+	display: flex;
+	justify-content: space-between;
 	width: 100%;
 }
 
@@ -20,18 +20,41 @@
 	margin: 1rem 0;
 }
 
-.spec__icon {
+.spec__icon,
+.spec__icon--secondary {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.spec__icon {
 	height: 35px;
 	margin-right: 2rem;
 	width: 28px;
 }
 
+.spec__icon--secondary {
+	width: 18px;
+	height: 18px;
+	margin-right: 1rem;
+}
+
 .spec__value {
 	display: flex;
 	align-items: baseline;
+}
+
+.min-margin {
+	margin: .5rem 0;
+}
+
+.specs__principal {
+	width: 50%;
+}
+
+.specs__secondary {
+	width: 38%;
+	font-size: .9rem;
 }
 
 .icon__display {
@@ -60,4 +83,24 @@
 
 .icon__battery {
 	background-image: url('../../../assets/img/icon_battery.png');
+}
+
+.icon__os {
+	background-image: url('../../../assets/img/icon_os.png');
+}
+
+.icon__dimensions {
+	background-image: url('../../../assets/img/icon_dimensions.png');
+	width: 24px;
+}
+
+.icon__weight {
+	background-image: url('../../../assets/img/icon_weight.png');
+}
+
+.icon__color {
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	margin-right: .5rem;
 }

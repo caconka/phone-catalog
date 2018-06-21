@@ -23,7 +23,7 @@ const phones = [
 			},
 			battery: '3090',
 			secureAuth: 'FACE_ID',
-			colors: ['000000']
+			colors: ['000000', 'CCCCCC']
 		},
 		images: [
 			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/8_1858_Big_Imagen.png',
