@@ -59,6 +59,10 @@ const phones = [
 			colors: ['E2E3E4', '262529']
 		},
 		images: [
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/iphone-x-256gb_1778_Big_Imagen.png',
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/iphone-x-256gb_1779_Big_Imagen.png',
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/iphone-x-256gb_1780_Big_Imagen.png',
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/iphone-x-256gb_1781_Big_Imagen.png'
 		]
 	},
 	{
@@ -88,6 +92,9 @@ const phones = [
 			colors: ['E5D1B6', '000000', '295094', '57598C', 'FDD3CB']
 		},
 		images: [
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/p20-pro_1955_Big_Imagen.png',
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/p20-pro_1948_Big_Imagen.png',
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/p20-pro_1945_Big_Imagen.png'
 		]
 	},
 	{
@@ -117,6 +124,8 @@ const phones = [
 			colors: ['A2AAAD', '33353B', '174A5B', '948794']
 		},
 		images: [
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/xperia-xz2_1996_Big_Imagen.png',
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/xperia-xz2_1998_Big_Imagen.png'
 		]
 	},
 	{
@@ -146,6 +155,9 @@ const phones = [
 			colors: ['E9DDB7', 'CCCCCC', 'E8E8E8']
 		},
 		images: [
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/y7-2018_1889_Big_Imagen.png',
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/y7-2018_1890_Big_Imagen.png',
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/y7-2018_1892_Big_Imagen.png'
 		]
 	},
 	{
@@ -175,6 +187,9 @@ const phones = [
 			colors: ['000000', 'CCCCCC']
 		},
 		images: [
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/q6_1663_Big_Imagen.png',
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/q6_1666_Big_Imagen.png',
+			'http://catalogo.movistar.com.pe/ArchivosUsuario/ImagenEquipo/q6_1665_Big_Imagen.png'
 		]
 	}
 ];

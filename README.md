@@ -1,6 +1,6 @@
 # Phone Catalog
 
->Small project of a phone catalogue where you can navigate to the phone-specs screen
+>Small project of a phone catalogue where you can navigate between phone-list and phone-specs screen
 
 ![Phone Catalog image](https://dl.dropboxusercontent.com/s/qxk7kc5j2g5xkaj/phone-catalog-mock.png?dl=0)
 
