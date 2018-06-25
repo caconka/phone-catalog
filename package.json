@@ -1,0 +1,12 @@
+{
+	"name": "phone-catalog",
+	"version": "0.1.0",
+	"private": false,
+	"scripts": {
+		"start:web": "cd web && npm run start",
+		"start:api": "cd api && npm run start",
+		"install:web": "cd web && npm i",
+		"install:api": "cd api && npm i",
+		"install": "npm run install:web && npm run install:api"
+	}
+}
