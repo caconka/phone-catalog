@@ -1,5 +1,5 @@
 .specs__global {
-	width: 50%;
+	width: 55%;
 }
 
 .phone-name {
@@ -11,7 +11,6 @@
 	padding: 1rem 2rem;
 	display: flex;
 	justify-content: space-between;
-	width: 100%;
 }
 
 .spec__row {
@@ -53,7 +52,7 @@
 }
 
 .specs__secondary {
-	width: 38%;
+	width: 41%;
 	font-size: .9rem;
 }
 

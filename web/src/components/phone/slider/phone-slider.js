@@ -1,26 +1,36 @@
 import React, {Component} from 'react';
-import Carousel from 'nuka-carousel';
+import Slider from 'react-slick';
 import './phone-slider.css';
 
 class PhoneSpecs extends Component {
 	render() {
 		const images = this.props.images;
+		const imgStyle = {
+			width: '100%',
+			height: '100%'
+		};
 		let imgs = '';
 		if (images.length > 0) {
 			imgs = images.map((img, index) => (
-				<img src={img} key={index} alt="phone-img" />
+				<div key={index}>
+					<img src={img} alt="phone-img" style={imgStyle} />
+				</div>
 			));
 		}
-
+		const settings = {
+			dots: true,
+			infinite: true,
+			speed: 500,
+			centerMode: true,
+			slidesToShow: 1,
+			slidesToScroll: 1
+		};
 		return (
-			<Carousel width="380px" renderCenterLeftControls={({previousSlide}) => (
-				<div onClick={previousSlide} className="custom-btn btn-left"></div>
-			)}
-			renderCenterRightControls={({nextSlide}) => (
-				<div onClick={nextSlide} className="custom-btn btn-right"></div>
-			)}>
-				{imgs}
-			</Carousel>
+			<div className="slider__container">
+				<Slider {...settings}>
+					{imgs}
+				</Slider>
+			</div>
 		);
 	}
 }

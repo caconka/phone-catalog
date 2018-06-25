@@ -42,11 +42,29 @@
 
 .detail__container {
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
-.detail__container > .slider {
-	display: inline-block;
-}
+ @media only screen and (max-width: 900px) {
+	.detail__container {
+		justify-content: center;
+	}
+
+	.specs__global {
+		width: 100%;
+		margin: 4rem 0;
+	}
+
+	.slider__container {
+		width: 70%;
+		order: 1;
+	}
+ }
+
+ @media only screen and (max-width: 600px) {
+	 .slider__container {
+		 width: 100%;
+	 }
+ }

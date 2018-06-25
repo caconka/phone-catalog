@@ -1,20 +1,10 @@
-.custom-btn {
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	border-radius: 15px;
+.slider__container {
+	width: 42%;
+	height: 386px;
+}
+
+.btn-arrow {
+	background: red;
 	width: 30px;
 	height: 30px;
-}
-
-.btn-right {
-	background-image: url('../../../assets/img/icon-btn-right.png');
-}
-
-.btn-left {
-	background-image: url('../../../assets/img/icon-btn-left.png');
-}
-
-.custom-btn:hover {
-	cursor: pointer;
 }
